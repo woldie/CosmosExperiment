@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "services", "services", "{9F1FA304-5D74-4E41-A634-B54046C6BBB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Woldrich.CosmosService", "services\Woldrich.CosmosService\Woldrich.CosmosService.csproj", "{8FC94958-317C-41F8-B3A1-9E98E8FF082A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "assemblies", "assemblies", "{5E0EF892-B3F9-4E2C-82B2-3B9DC1CDBD5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Woldrich.CosmosModel", "assemblies\Woldrich.CosmosModel\Woldrich.CosmosModel.csproj", "{77154FD1-4280-4A91-9CDA-0ECE3CC5EA4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Woldrich.CosmosData", "assemblies\Woldrich.CosmosData\Woldrich.CosmosData.csproj", "{C405FB6C-2201-4686-8CCB-171FAC84BA0A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8FC94958-317C-41F8-B3A1-9E98E8FF082A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FC94958-317C-41F8-B3A1-9E98E8FF082A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FC94958-317C-41F8-B3A1-9E98E8FF082A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FC94958-317C-41F8-B3A1-9E98E8FF082A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77154FD1-4280-4A91-9CDA-0ECE3CC5EA4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77154FD1-4280-4A91-9CDA-0ECE3CC5EA4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77154FD1-4280-4A91-9CDA-0ECE3CC5EA4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77154FD1-4280-4A91-9CDA-0ECE3CC5EA4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C405FB6C-2201-4686-8CCB-171FAC84BA0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C405FB6C-2201-4686-8CCB-171FAC84BA0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C405FB6C-2201-4686-8CCB-171FAC84BA0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C405FB6C-2201-4686-8CCB-171FAC84BA0A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8FC94958-317C-41F8-B3A1-9E98E8FF082A} = {9F1FA304-5D74-4E41-A634-B54046C6BBB0}
+		{77154FD1-4280-4A91-9CDA-0ECE3CC5EA4C} = {5E0EF892-B3F9-4E2C-82B2-3B9DC1CDBD5A}
+		{C405FB6C-2201-4686-8CCB-171FAC84BA0A} = {5E0EF892-B3F9-4E2C-82B2-3B9DC1CDBD5A}
+	EndGlobalSection
+EndGlobal
