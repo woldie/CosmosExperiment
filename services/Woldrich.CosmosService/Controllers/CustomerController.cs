@@ -18,7 +18,7 @@ public class CustomerController : ControllerBase
 
         await CustomerDao.CrupdateCustomer(customer);
 
-        return CreatedAtAction(nameof(GetCustomerAsync), new { hashKey = customer.HashKey, rangeKey = customer.RangeKey }, customer);
+        return CreatedAtAction(nameof(GetCustomerAsync), new { hashKey = customer.HashKey, rangeKey = customer.RangeKey }, null);
     }
 
     [HttpGet]
