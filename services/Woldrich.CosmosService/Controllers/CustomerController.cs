@@ -13,7 +13,9 @@ public class CustomerController : ControllerBase
     [HttpPost]
     [ProducesResponseType(StatusCodes.Status201Created)]
     public async Task<ActionResult<Customer>> CreateCustomerAsync(Customer customer) {
-        // TODO: should we assert that HashKey and RangeKey are null and we're being asked to create a new Customer in Cosmos db
+        // TODO: assert that HashKey and RangeKey are null here and prove we're being asked to create a new Customer in Cosmos db
+        //  there should be a separate PUT endpoint for updating
+        
         customer.GenerateRandomKeys();
 
         await CustomerDao.CrupdateCustomer(customer);

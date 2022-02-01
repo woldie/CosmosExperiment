@@ -20,7 +20,8 @@ public class CustomerDao
     public async Task<Customer?> GetCustomerByIdAsync(CosmosKey id) {
         using (var context = new CosmosDataContext()) 
         {
-            return await context.Customers.FindAsync(id.HashKey, id.RangeKey);
+            return await context.Customers
+                .FindAsync(id.HashKey, id.RangeKey);
         }
     }
 }
